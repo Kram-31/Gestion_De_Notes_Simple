@@ -22,7 +22,7 @@ make (facultatif)
 Construire
 Bash
 
-git clone https://github.com/VotreNomDUtilisateur/gestionnaire-notes-c.git
+git clone http://github.com/VotreNomDUtilisateur/gestionnaire-notes-c.git
 cd gestionnaire-notes-c
 gcc -o note_manager main.c note.c note_manager.c -Wall -Wextra -g
 Lancer
