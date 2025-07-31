@@ -1,8 +1,8 @@
 # 📝 Simple Note Manager 📝
 Welcome to the Simple Note Manager! This project is a console application written in C, 
 
-✨ Features
-This application allows you to:
+# ✨ Features
+## This application allows you to:
 
 Create new notes: Enter a title and content for your notes.
 
@@ -10,8 +10,8 @@ Display all notes: View the complete list of your notes with their IDs, titles, 
 
 Modify an existing note: Update the title or content of a specific note using its ID.
 
-🚀 How to use
-Prerequisites
+# 🚀 How to use
+## Prerequisites
 To compile and run this project, you will need the following installed on your system:
 
 make: A utility to automate compilation.
