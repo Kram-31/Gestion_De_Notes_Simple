@@ -16,5 +16,6 @@ typedef struct {
 
 void Afficher_Note(Note notes[], int nombreDeNotes);
 void Cree_Note(Note notes[], int *nombreDeNotes);
+void Modifier_Note(Note notes[], int nombreDeNotes);
 
 #endif

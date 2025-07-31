@@ -1,7 +1,7 @@
-#include "note.h" 
-#include <stdio.h> 
+#include "note.h"
+#include <stdio.h>
 
-Note notes[MAX_NOTES]; 
+Note notes[MAX_NOTES];
 int NombreDeNotes = 0;
 
 int main() {
@@ -11,11 +11,11 @@ int main() {
     printf("\n--- MENU DE GESTION DE NOTES ---\n");
     printf("1. Créer une nouvelle note\n");
     printf("2. Afficher toutes les notes\n");
-    printf("7. Quitter\n");
+    printf("3. modifier une note\n");
+    printf("4. Quitter\n");
     printf("Choisissez une option : ");
 
     scanf("%d", &choix);
-
     while (getchar() != '\n' && getchar() != EOF)
       ;
 
@@ -26,13 +26,15 @@ int main() {
     case 2:
       Afficher_Note(notes, NombreDeNotes);
       break;
-    case 7:
+    case 3:
+      Modifier_Note(notes, NombreDeNotes);
+      break;
+    case 4:
       printf("Au revoir !\n");
       break;
     default:
-      printf("Option invalide. Veuillez réessayer.\n");
+      printf("Option invalide bouffon\n");
     }
-  } while (choix !=
-           7); 
-  return 0; 
+  } while (choix != 4);
+  return 0;
 }
