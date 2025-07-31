@@ -23,8 +23,8 @@ Clone the repository
 
 ```bash
 
-git clone https://github.com/Kram-31/gestion-de-notes-simple.git 
-cd gestion-de-notes-simple
+git clone https://github.com/Kram-31/gestion_de_notes_simple.git 
+cd gestion_de_notes_simple
 ```
 Compile the project using make:
 
