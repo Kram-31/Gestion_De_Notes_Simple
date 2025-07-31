@@ -1,5 +1,4 @@
-
-📝 Simple Note Manager 📝
+# 📝 Simple Note Manager 📝
 Welcome to the Simple Note Manager! This project is a console application written in C, 
 
 ✨ Features
