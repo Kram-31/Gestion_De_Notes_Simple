@@ -64,7 +64,3 @@ build/ : Répertoire où les fichiers objets (.o) sont placés lors de la compil
 Makefile : Le fichier de construction pour compiler le projet.
 
 Prog : L'exécutable généré après la compilation.
-
-📸 Aperçu
-<img width="1023" height="79" alt="image" src="https://github.com/user-attachments/assets/61417d13-7d58-4f80-ba35-118d4bf0872d" />
-
