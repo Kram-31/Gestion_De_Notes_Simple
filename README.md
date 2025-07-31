@@ -1,6 +1,6 @@
 
 📝 Simple Note Manager 📝
-Welcome to the Simple Note Manager! This project is a console application written in C, designed to help you organize and manage your notes efficiently and intuitively.
+Welcome to the Simple Note Manager! This project is a console application written in C, 
 
 ✨ Features
 This application allows you to:
@@ -11,22 +11,20 @@ Display all notes: View the complete list of your notes with their IDs, titles, 
 
 Modify an existing note: Update the title or content of a specific note using its ID.
 
-Simple user interface: An interactive command-line menu for easy navigation.
-
 🚀 How to use
 Prerequisites
 To compile and run this project, you will need the following installed on your system:
 
 make: A utility to automate compilation.
 
-A C compiler (e.g., gcc or clang).
+A C compiler 
 
 Compilation
-Clone the repository (or download the files if you are not using Git):
+Clone the repository 
 
 ```bash
 
-git clone https://github.com/Kram-31/gestion-de-notes-simple.git # Replace with your repository URL
+git clone https://github.com/Kram-31/gestion-de-notes-simple.git 
 cd gestion-de-notes-simple
 ```
 Compile the project using make:
