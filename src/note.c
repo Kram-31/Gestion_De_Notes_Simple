@@ -1,4 +1,4 @@
-#include "note.h"
+#include "../include/note.h"
 #include <stdio.h>
 #include <string.h>
 // ft_Cree_Note
